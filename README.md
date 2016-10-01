@@ -1,7 +1,7 @@
 # dotBC Bundler
 
 ### Building
-In order to build this, you need to be on the platform you want to build for.  E.g., if you want to build for Windows, you need to be on a Windows machine.  If you want to build for Mac, you have to be on a Mac *that has Xcode developer tools installed*.  
+In order to build this, you need to have [ember.js](http://emberjs.com/) installed and be on the platform you want to build for.  E.g., if you want to build for Windows, you need to be on a Windows machine.  If you want to build for Mac, you have to be on a Mac *that has Xcode developer tools*.
 
 Once you are on the right platform, simply run `./scripts/electron/[PLATFORM]/package-dev.sh` and it will build a shareable Electron app.
 
